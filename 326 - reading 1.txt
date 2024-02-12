@@ -1,2 +1,7 @@
 ﻿1. The two main functions of an operating system is to manage the computers hardware resources. The second is to provide abstractions to user progrmas which means establishing an environment for the execution of programs.
-2. 
+
+2. Timesharing is a variant of multiprogramming, which each user has an online terminal. While multiprogramming systems keep the CPU occupied by having multiple concurrent programs running at the same time. 
+
+3. The IBM system/360 still lives on to this day. The system/360 use of small scale IC's was a major performace advantage which are now used in phones and modern copmuters. 
+
+4. In Kernel mode it has complete access to the hardware and can execute any instruction the machine is capable of executing, privaliged tasks, where as the user mode restricts access of certain instructions that affect the control of the machine.
