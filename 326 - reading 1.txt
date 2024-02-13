@@ -5,3 +5,15 @@
 3. The IBM system/360 still lives on to this day. The system/360 use of small scale IC's was a major performace advantage which are now used in phones and modern copmuters. 
 
 4. In Kernel mode it has complete access to the hardware and can execute any instruction the machine is capable of executing, privaliged tasks, where as the user mode restricts access of certain instructions that affect the control of the machine.
+
+5. Without Direct Memory Access, the CPUs involvement in all data transfers would limit the multiprogramming effciency. reason being, the CPU would spend a lot of time managing the data transfers instead of executing multiple programs effectively
+
+6. Two design goals that may contradict one another is are resouce utilization and timeliness. Maximizing resource utilzation can lead to resource contention and longer wait times, potentially compromising responsiveness or timeliness 
+
+7. instructions allowed only in kernel mode are: (a)Disable all interrupts, and (c) Set the time-of-day-oclock. The actions could comprise systems integrity or security if accesable from user mode.
+
+8. 
+
+9. The trap instruction switches from user mode to kernel mode and starts the operating sytsem. it provides a mechanism for a program to interupt its execution and transfer control to the operating system, enabling system calls or handling exceptional conditions 
+
+10. decoupling benefits is faster start up speeds for programs and Helps larger programs execute when the main memory of the machine is of smaller size in comparison with the program.
